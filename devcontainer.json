@@ -1,0 +1,14 @@
+{
+  "name": "Windows-in-Codespace",
+  "image": "dockurr/windows",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "forwardPorts":,
+  "portsAttributes": {
+    "8006": {
+      "label": "Windows Desktop",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
